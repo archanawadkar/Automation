@@ -33,8 +33,10 @@ public class PinPageTest {
 		zerodhaPinPage.enterPin(pin,driver);
 		zerodhaPinPage.clickOnContinue();
 	}
-	
-	
+	@Test
+	public void test() {
+		System.out.println("Hello");
+	}
 	
 	
 	
